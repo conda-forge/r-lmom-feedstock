@@ -43,7 +43,8 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=lmom
-  license: Common Public License Version 1.0
+  license: CPL-1.0
+  license_file: LICENSE
   summary: 'Functions related to L-moments: computation of L-moments and trimmed L-moments of distributions and data samples; parameter estimation; L-moment ratio diagram; plot vs. quantiles of an extreme-value distribution.'
   license_family: OTHER
 
