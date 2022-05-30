@@ -1,4 +1,4 @@
-{% set version = "2.8" %}
+{% set version = "2.9" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/lmom_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/lmom/lmom_{{ version }}.tar.gz
-  sha256: cae2a925c39429d8e9f91bdb2682ea0d1343e9b2e5c9e8752c5929eb5f20d2d2
+  sha256: 363e62751a73e0870fd0206206f1743a884a23aeac9b31b9afc71c0a1b51bb90
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
