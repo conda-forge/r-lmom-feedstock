@@ -1,4 +1,4 @@
-{% set version = "3.0" %}
+{% set version = "3.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/lmom_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/lmom/lmom_{{ version }}.tar.gz
-  sha256: 4b0ae8638a63b45ddedfd65c15e3206d34e947a2b5d31e9aa8c55446d69a0291
+  sha256: da3c7bedb0f1b70423f0deba03cb936632d615fa509791ce998a8fedd1c7ad98
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
